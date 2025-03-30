@@ -88,3 +88,9 @@ This is a boilerplate and quick start guide for building Node.js applications us
 - [Prettier](https://prettier.io/)
 - [Nodemon](https://nodemon.io/)
 - [ts-node](https://typestrong.org/ts-node/)
+
+## License
+
+- [MIT](LICENSE.md)
+
+&nbsp;
