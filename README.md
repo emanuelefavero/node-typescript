@@ -79,3 +79,12 @@ This is a boilerplate and quick start guide for building Node.js applications us
   ```
 
   > Note: During the ESlint setup process, remember to also turn on `node` besides `browser` using the `space` bar when selecting the environment
+
+## References
+
+- [Node.js](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Nodemon](https://nodemon.io/)
+- [ts-node](https://typestrong.org/ts-node/)
