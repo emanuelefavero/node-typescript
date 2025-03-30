@@ -8,5 +8,11 @@
   "keywords": [],
   "author": "Emanuele Favero <emafaux89@gmail.com> (https://emanuelefavero.com/)",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
 }
