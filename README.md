@@ -12,7 +12,7 @@ This is a boilerplate and quick start guide for building Node.js applications us
 - Clone the repository
 - Run `npm install` to install dependencies
 - Run `npm run dev` to start the development server
-- Edit the `index.ts` file to start building your application
+- Edit the `index.ts` file inside `src` to start building your application
 
 > Tip: You can also use `npm run build` to build the project for production and `npm start` to run the built project
 >
@@ -44,9 +44,9 @@ This is a boilerplate and quick start guide for building Node.js applications us
       "esModuleInterop": true,
       "forceConsistentCasingInFileNames": true,
       "strict": true,
-      "skipLibCheck": true
-      // "outDir": "./dist",
-      // "rootDir": "./src"
+      "skipLibCheck": true,
+      "outDir": "./dist",
+      "rootDir": "./src"
     }
   }
   ```
@@ -57,9 +57,9 @@ This is a boilerplate and quick start guide for building Node.js applications us
 
   ```json
   "scripts": {
-    "dev": "nodemon --watch src --exec ts-node index.ts",
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
     "build": "npx tsc",
-    "start": "node index.js",
+    "start": "node dist/index.js",
     "lint": "eslint --ext .ts ."
   },
   ```
